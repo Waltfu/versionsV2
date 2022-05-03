@@ -1,2 +1,4 @@
-nononononononooooooooooooooooooooooo... stop reading meeee
-the next file will be code file hehe
+import random
+print("This program will print a number between 0 and 5.")
+randnum = random.randint(0,6)
+print("Your number is: " + randnum)
