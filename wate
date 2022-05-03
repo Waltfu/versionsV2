@@ -24,3 +24,5 @@ elif lower_a == "randnumm":
   mathques()
 else:
   print("Sorry, that is not an option")
+  print("Why did the cat cross the road?")
+  print("because the chicken had a laser pointer.")
