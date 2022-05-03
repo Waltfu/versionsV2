@@ -1,0 +1,5 @@
+import random
+print("This program will print a number between 0 and 5.")
+randnum = random.randint(0,6)
+print("Your number is: " + randnum)
+print("what is 8 x 10")
