@@ -13,7 +13,7 @@ answer = input("What do you want: a math question (type mathques) or a random nu
 lower_a = answer.lower()
 if lower_a == "randnum":
   randnum()
-elif lower_a = "mathques":
+elif lower_a == "mathques":
   mathques()
 else:
   print("Sorry, that is not an option")
