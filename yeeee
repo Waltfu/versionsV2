@@ -1,1 +1,19 @@
+import random
 
+def randnum();
+  print("This program will print a number between 0 and 5.")
+  randnum = random.randint(0,6)
+  print("Your number is: " + randnum)
+def mathques();
+  list_of_q = ["what is 6 x 6", "what is 7 x 9", "what is 3 / 4", "what is 5 x 6", "what is 8 x 10"]
+  random.shuffle(list_of_q)
+  first_q = list_of_q[0]
+  print(first_q)
+answer = input("What do you want: a math question (type mathques) or a random number between 0 and 5? (type randnum)")
+lower_a = answer.lower()
+if lower_a == "randnum":
+  randnum()
+elif lower_a = "mathques":
+  mathques()
+else:
+  print("Sorry, that is not an option")
